@@ -7,7 +7,7 @@ library(dplyr)
 library(performance)
 library(mice)
 
-fgc <- read.csv("E:/fGCm_Bayes/Dryad/Pritchard_fGCm_baboons_R3.csv")
+fgc <- read.csv('/Users/maddiethall/R Repos/replication_project/Pritchard_fGCm_baboons_R3.csv')
 
 #Convert columns to correct class
 fgc$Sex <- factor(fgc$Sex)
